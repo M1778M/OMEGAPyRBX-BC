@@ -1,3 +1,20 @@
 node_modules
 include
 out
+package-lock.json
+.vscode/
+.prettierrc
+.eslintrc
+*.tsbuildinfo
+.DS_Store
+
+/dist
+sourcemap.json
+*.rbxl.lock
+*.rbxl
+*.rbxlx
+
+# Bundled eslint config
+*.mjs
+
+.env
