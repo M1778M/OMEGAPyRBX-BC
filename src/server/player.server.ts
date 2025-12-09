@@ -15,6 +15,7 @@ Collector.WrapEvent(
 						print("Player `" + player.Name + "` with character" + character.Name + " Touched baseplate.");
 						(character.WaitForChild("Humanoid") as Humanoid).Health = 30;
 					}),
+					10,
 				);
 			}),
 		);
@@ -27,5 +28,3 @@ Collector.WrapEvent(
 		print("Player `" + player.Name + "` removing.");
 	}),
 );
-
-task.delay(10, () => Collector.Disconnect("playerremoving"));
