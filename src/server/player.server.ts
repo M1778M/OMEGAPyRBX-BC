@@ -1,6 +1,6 @@
 // import ProfileStore from "@rbxts/profile-store";
 import { Workspace, Players } from "@rbxts/services";
-import { Collector } from "shared/easycollector";
+import { Collector } from "shared/Utilities/easycollector";
 
 Collector.WrapEvent(
 	"playeradded",
